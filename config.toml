@@ -3,8 +3,9 @@ title = "Goldydocs"
 
 enableRobotsTXT = true
 
-# Hugo allows theme composition (and inheritance). The precedence is from left to right.
-theme = ["docsy"]
+# set docsy as theme, either locally or as module
+# theme = ["docsy"]
+theme = ["github.com/google/docsy", "github.com/google/docsy/module"]
 
 # Will give values to .Lastmod etc.
 enableGitInfo = true
